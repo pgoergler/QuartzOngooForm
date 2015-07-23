@@ -1,0 +1,19 @@
+{
+    "name": "quartz/quartz-ongoo-form",
+    "type": "library",
+    "description":  "Quartz extentions for Ongoo Form.",
+    "keywords": ["quartz", "ongoo", "form"],
+    "homepage": "https://github.com/pgoergler/QuartzOngooForm",
+    "license":  "MIT",
+    "authors":  [ { "name": "Paul GOERGLER", "email": "pgoergler@gmail.com", "homepage": "http://soft.wayr.fr" } ],
+    "require": { 
+        "php": ">=5.3.0", 
+        "quartz/quartz": "dev-master" ,
+        "ongoo/ongoo-form": "dev-master" 
+    },
+    "autoload": { 
+        "psr-0": { 
+            "Quartz\\Component\\Form": "src"
+        } 
+    }
+}
