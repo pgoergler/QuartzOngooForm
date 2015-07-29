@@ -7,7 +7,7 @@ namespace Quartz\Component\Form;
  *
  * @author paul
  */
-class QuartzEntityForm extends Form
+class QuartzEntityForm extends \Ongoo\Component\Form\Form
 {
     /**
      *
